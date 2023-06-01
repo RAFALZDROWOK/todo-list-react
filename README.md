@@ -1,4 +1,5 @@
 # Rafał Zdrowok - Task list - as part of the YouCode course
+![my Task list](https://github.com/RAFALZDROWOK/todos-list-react/blob/master/public/Tasks%20list.png?raw=true)
 ## Demo
  https://rafalzdrowok.github.io/todos-list-react/
 ## Description:
