@@ -23,5 +23,5 @@
 }
 
 .buttons__button:disabled {
-    color: gray;
+    color: rgb(232, 230, 230);
 }
