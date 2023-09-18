@@ -10,8 +10,9 @@ The purpose of creating the "todo list" was:
 - writing the code in REACT.JS, which I wrote earlier in pure JS
 - gaining practice in CSS implementation in REACT.JS
 - introducing the version to the deployment
+- data storage on the user's device has been introduced, using: localStorage and UseEffect
 - learning about new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -66,3 +67,5 @@ Grid✔
 Media queries✔
 Immutability✔
 Arrays✔
+UseState✔ 
+UseEffect✔ 
