@@ -1,9 +1,11 @@
-.section {
+import styled from "styled-components";
+
+export const Wrapper = styled.section`
     margin: 10px 0;
     background: white;
-}
+`;
 
-.section__header {
+export const Header = styled.header`
     padding: 20px;
     border-bottom: 1px solid #ccc;
     display: grid;
@@ -11,19 +13,17 @@
     grid-gap: 20px;
     justify-content: space-between;
     align-items: center;
-}
 
-@media(max-width: 767px){
-    .section__header {
+    @media(max-width: 767px){
         grid-template-columns: 1fr;
     }
-}
+`;
 
-.section__title {
+export const Title = styled.h2`
     font-size: 20px;
     margin: 0;
-}
+`;
 
-.section__body {
+export const Body = styled.div`
     padding: 20px;
-}
+`;
