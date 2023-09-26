@@ -18,10 +18,10 @@ export const Button = styled.button`
     }
 
     &:hover {
-    color: hsl(180, 100%, 35%);
+        filter: brightness(110%);
     }
     &:disabled {
-    color: rgb(232, 230, 230);
+        filter: brightness(120%);
     }
 `;
 
