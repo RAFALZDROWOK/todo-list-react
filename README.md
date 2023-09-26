@@ -11,8 +11,10 @@ The purpose of creating the "todo list" was:
 - gaining practice in CSS implementation in REACT.JS
 - introducing the version to the deployment
 - data storage on the user's device has been introduced, using: localStorage and UseEffect
+- using styled-components instead of the previously used CSS
+- introduction of GlobalStyle
 - learning about new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔ Styled-components✔ GlobalStyle✔
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -70,3 +72,5 @@ Arrays✔
 UseState✔ 
 UseEffect✔ 
 localStorage✔
+Styled-components✔ 
+GlobalStyle✔
