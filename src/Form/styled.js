@@ -17,8 +17,8 @@ export const Input = styled.input`
 
 export const Button = styled.button`
     padding: 10px;
-    background: hsl(180, 100%, 25%);
-    color: white;
+    background: ${({ theme }) => theme.color.teal};
+    color: ${({ theme }) => theme.color.white};
     border: none;
     transition: 0.4s;
 
@@ -30,3 +30,4 @@ export const Button = styled.button`
         filter: brightness(120%);
     }
 `;
+
