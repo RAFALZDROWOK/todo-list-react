@@ -33,7 +33,7 @@ export const Button = styled.button`
     padding: 0;
     transition: background 0.3s;
 
-    ${({ toggleDone }) => toggleDone && css`
+    ${({ toggledone }) => toggledone && css`
         background: hsl(120, 61%, 34%);
     `}
 
