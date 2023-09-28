@@ -10,12 +10,14 @@ The purpose of creating the "todo list" was:
 - writing the code in REACT.JS, which I wrote earlier in pure JS
 - gaining practice in CSS implementation in REACT.JS
 - introducing the version to the deployment
-- data storage on the user's device has been introduced, using: localStorage and UseEffect
-- using styled-components instead of the previously used CSS
-- introduction of GlobalStyle
-- introduction of ThemeProvider
+- introduction of UseState Hook - UseState allows me to enter and update values from input, to my "newTaskContent" function
+- introducing the UseEffect hook - UseEffect allows me to enter and update data stored in the user's "localStorage"
+- using Styled-components instead of the previously used CSS
+- introduction of GlobalStyle - GlobalStyle allows me to apply master styles that apply to the entire application
+- introduction of ThemeProvider - ThemeProvider allows me to introduce and modify selected styles in all React components from one "theme" object
+- a useRef Hook has been introduced that allows you to set focus to input between renders
 - learning about new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ UseRef✔
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -76,3 +78,4 @@ localStorage✔
 Styled-components✔ 
 GlobalStyle✔
 ThemeProvider✔
+UseRef✔
