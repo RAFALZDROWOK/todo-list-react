@@ -21,7 +21,7 @@ export const Button = styled.button`
         filter: brightness(110%);
     }
     &:disabled {
-        filter: brightness(120%);
+        color: ${({ theme }) => theme.color.alto};
     }
 `;
 
