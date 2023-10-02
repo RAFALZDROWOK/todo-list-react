@@ -20,7 +20,7 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
         text-decoration: line-through;
     `}
 `;
@@ -33,11 +33,11 @@ export const Button = styled.button`
     padding: 0;
     transition: background 0.3s;
 
-    ${({ toggledone }) => toggledone && css`
+    ${({ $toggledone }) => $toggledone && css`
         background: ${({ theme }) => theme.color.green};
     `}
 
-    ${({ remove }) => remove && css`
+    ${({ $remove }) => $remove && css`
         background: ${({ theme }) => theme.color.red};
     `}
 
