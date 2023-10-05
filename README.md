@@ -16,8 +16,9 @@ The purpose of creating the "todo list" was:
 - introduction of GlobalStyle - GlobalStyle allows me to apply master styles that apply to the entire application
 - introduction of ThemeProvider - ThemeProvider allows me to introduce and modify selected styles in all React components from one "theme" object
 - a useRef Hook has been introduced that allows you to set focus to input between renders
+- creating and implementing a Custom Hook in order to organize/reduce the amount of code in App.js - creating your own Hook in an additional file useTasks.js
 - learning about new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ UseRef✔
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ localStorage✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ UseRef✔ Custom Hook✔
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -79,3 +80,4 @@ Styled-components✔
 GlobalStyle✔
 ThemeProvider✔
 UseRef✔
+Custom Hook✔
